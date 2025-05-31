@@ -1,0 +1,19 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.wrapper{
+     height: 100vh;
+     width: 100vw;
+}
+.container{
+     display: flex;
+     flex-direction: column;
+}
+.screenDiv{
+     width: 2rem;
+     border-radius: 50%;
+     background-color: black;
+     font-family: v;
+}
