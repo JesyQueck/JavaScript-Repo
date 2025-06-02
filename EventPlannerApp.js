@@ -20,5 +20,15 @@ let eventPlanner = {
         };
 
         this.events.push(event);
+    },
+
+    registerAttendee(eventName, attendeeName){
+          const event = this.events.find(ev =>ev.name === eventName);
+          if(!event){
+               console.log(`Events ${this.name} not found.`)
+          }
+    }, 
+
+    listEvent(event){
     }
 };
