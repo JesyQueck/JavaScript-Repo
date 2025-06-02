@@ -1,8 +1,8 @@
-let userInput = prompt("Input a Number: ");
+/* let userInput = prompt("Input a Number: ");
 let userNumInput = `${userInput}`;
 let isPrimeNumber =true;
 
-if(userNumInput < 1){
+if(userInput < 1){
      isPrimeNumber = false;
 }else{
      for(let i =2; i < userNumInput; i ++){
@@ -18,3 +18,5 @@ if(isPrimeNumber){
 }else{
           console.log(`The Number you entered is not a Prime Number`);
 };
+ */
+
