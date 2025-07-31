@@ -1,0 +1,50 @@
+Assignment: JavaScript Timer Projects
+
+1. Countdown Timer
+
+Description:
+Create a countdown from 10 to 0. Show the countdown in the browser, and when it hits 0, display "Time's up!".
+
+Requirements:
+	•	Use setInterval
+	•	Display each second in an HTML element
+	•	Use clearInterval() to stop the timer
+<div id="countdown">10</div>
+
+2. Auto Alert After Delay
+
+Description:
+When the page loads, show an alert saying “Take a short break!” after 5 seconds.
+
+Requirements:
+	•	Use setTimeout
+	•	Don’t use any button (it triggers automatically)
+
+⸻
+
+3. Blinking Text
+
+Description:
+Create a piece of text that keeps blinking (hiding and showing every 500ms).
+
+Requirements:
+	•	Use setInterval
+	•	Use style.visibility = 'hidden' / 'visible'
+	•	Optional: Use a button to start/stop the blinking
+4. Stopwatch
+
+Description:
+Build a stopwatch that shows seconds increasing every second when the “Start” button is clicked, and stops when “Stop” is clicked.
+
+Requirements:
+	•	Use setInterval, clearInterval
+	•	2 buttons: Start and Stop
+	•	Optional: Reset button
+5. Typing Timer
+
+Description:
+Let the user type into a textbox. If they stop typing for 3 seconds, show: “Are you still there?”.
+
+Requirements:
+	•	Use setTimeout with input event
+	•	Reset the timer if the user keeps typing

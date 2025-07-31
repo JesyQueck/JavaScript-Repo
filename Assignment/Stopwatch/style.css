@@ -1,0 +1,61 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: monospace;
+}
+body{
+     background-color: cornflowerblue;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+main{
+     position: relative;
+     height: 30%;
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+     border-radius: 10px;
+     text-align: center;
+}
+.watch_screen{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;    
+     margin: 25px 0;     
+     width: fit-content;
+     height: 10%;
+}
+span{
+     font-size: 50px;
+     font-weight: 800;
+     color: rgb(255, 255, 255);
+}
+.watch_control{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+button{
+     padding: 0.5rem 0.7rem;
+     border-radius: 5px;
+     font-size: 25px;
+     font-weight: 800;
+}
+.button_stop{
+     background-color: red;
+}
+.button_start{
+     background-color: azure;
+}
+.button_reset{
+     background-color: blue;
+}

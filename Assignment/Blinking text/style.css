@@ -1,0 +1,29 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     width: 100vw;
+     background-color: black;
+}
+#txt{
+     display: flex;
+     justify-content: center;
+     font-size: 4rem;
+     font-family: cursive;
+     padding-top: 20rem;
+     color: cyan;
+     visibility: visible;
+}
+#control{
+     display: flex;
+     justify-self: center;
+     font-size: 1.3rem;
+     font-family: cursive;
+     padding: 1rem;
+     margin: 2rem auto;
+     background-color: bisque;
+     color: rgb(0, 7, 7);
+}
